@@ -1,35 +1,21 @@
-# Tic Tac Toe con React + Vite + Tailwind
+# Tic Tac Toe con React, Vite y Tailwind
 
-Este proyecto es un juego de **Tres en línea (Tic Tac Toe)** construido con **React** y **Vite**.
+Este proyecto es un juego de **Tres en línea (Tic Tac Toe)** construido con **React** para la interfaz, **Vite** para el bundling rápido y eficiente, y **Tailwind CSS** para estilos modernos y responsivos. Además, se utiliza **Biome** para el formateo y linting del código, garantizando calidad y consistencia.
 
-## 🚀 Tecnologías utilizadas
+## Características
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [PNPM](https://pnpm.io/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Biome](https://biomejs.dev/) (para formateo y linting)
+- Juego clásico de Tres en línea con lógica de ganador y turnos.
+- Interfaz interactiva y amigable desarrollada con React.
+- Estilos rápidos y adaptativos con Tailwind CSS.
+- Configuración y uso de Biome para mantener el código limpio y consistente.
 
-## 🧪 Instalación
+## Tecnologías utilizadas
 
-Cloná el repositorio y luego instalá las dependencias:
+- **React**: Biblioteca para construir interfaces de usuario.
+- **Vite**: Herramienta de construcción y bundling rápida y eficiente.
+- **Tailwind CSS**: Framework CSS utilitario para diseño flexible y responsivo.
+- **Biome**: Linter y formateador de código para asegurar calidad.
 
-```bash
-pnpm install
-```
-🧱 Scripts disponibles
-- pnpm dev — Inicia el servidor de desarrollo.
+## ✨ Autor
 
-- pnpm build — Genera una versión optimizada para producción.
-
-- pnpm preview — Previsualiza la app de producción.
-
-- pnpm biome lint — Analiza y formatea el código (si tenés Biome configurado).
-
-🔍 Plugins de React para Vite
-- @vitejs/plugin-react: Usa Babel y soporta Fast Refresh.
-
-- @vitejs/plugin-react-swc: Usa SWC para compilación más rápida con Fast Refresh.
-
-✨ Autor
 Desarrollado por Hernán Esteche.
