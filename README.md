@@ -18,18 +18,18 @@ Cloná el repositorio y luego instalá las dependencias:
 pnpm install
 ```
 🧱 Scripts disponibles
-pnpm dev — Inicia el servidor de desarrollo.
+- pnpm dev — Inicia el servidor de desarrollo.
 
-pnpm build — Genera una versión optimizada para producción.
+- pnpm build — Genera una versión optimizada para producción.
 
-pnpm preview — Previsualiza la app de producción.
+- pnpm preview — Previsualiza la app de producción.
 
-pnpm biome lint — Analiza y formatea el código (si tenés Biome configurado).
+- pnpm biome lint — Analiza y formatea el código (si tenés Biome configurado).
 
 🔍 Plugins de React para Vite
-@vitejs/plugin-react: Usa Babel y soporta Fast Refresh.
+- @vitejs/plugin-react: Usa Babel y soporta Fast Refresh.
 
-@vitejs/plugin-react-swc: Usa SWC para compilación más rápida con Fast Refresh.
+- @vitejs/plugin-react-swc: Usa SWC para compilación más rápida con Fast Refresh.
 
 ✨ Autor
 Desarrollado por Hernán Esteche.
