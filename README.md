@@ -1,12 +1,42 @@
-# React + Vite
+# Tic Tac Toe con React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un juego de **Tres en línea (Tic Tac Toe)** construido con **React** y **Vite**.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [PNPM](https://pnpm.io/)
+- [Tailwind CSS](https://tailwindcss.com/) (si está incluido)
+- [Biome](https://biomejs.dev/) (para formateo y linting)
 
-## Expanding the ESLint configuration
+## 🧪 Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Cloná el repositorio y luego instalá las dependencias:
+
+```bash
+npm install
+```
+🧱 Scripts disponibles
+pnpm dev — Inicia el servidor de desarrollo.
+
+pnpm build — Genera una versión optimizada para producción.
+
+pnpm preview — Previsualiza la app de producción.
+
+pnpm biome lint — Analiza y formatea el código (si tenés Biome configurado).
+
+🔍 Plugins de React para Vite
+@vitejs/plugin-react: Usa Babel y soporta Fast Refresh.
+
+@vitejs/plugin-react-swc: Usa SWC para compilación más rápida con Fast Refresh.
+
+💡 Recomendaciones para producción
+Si vas a llevar este proyecto a producción:
+
+Considerá migrarlo a TypeScript para una mayor seguridad de tipos.
+
+Activá reglas de ESLint o Biome con validación de tipos para mejorar la calidad del código.
+
+✨ Autor
+Desarrollado por Hernán Esteche.
